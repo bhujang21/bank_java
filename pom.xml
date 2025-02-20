@@ -20,34 +20,39 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.7.5</version>  <!-- Add version here -->
         </dependency>
         <!-- Spring Data JPA for database operations -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.7.5</version>  <!-- Add version here -->
         </dependency>
         <!-- H2 Database for in-memory DB during development -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
+            <version>1.4.200</version>  <!-- Add version here -->
             <scope>runtime</scope>
         </dependency>
         <!-- MySQL Driver for connecting to RDS -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>  <!-- Add version here -->
         </dependency>
         <!-- Spring Boot Testing (JUnit) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>2.7.5</version>  <!-- Add version here -->
             <scope>test</scope>
         </dependency>
         <!-- TestNG for HTML Report Generation -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.3.0</version>
+            <version>7.3.0</version>  <!-- Add version here -->
             <scope>test</scope>
         </dependency>
     </dependencies>
